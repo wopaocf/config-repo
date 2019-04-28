@@ -6,6 +6,11 @@ spring:
     url: jdbc:mysql://192.168.0.104:3306/SpringClud_Sell?characterEncoding=utf-8&useSSL=false
     username: root
     password: a4183129CF*
+  rabbitmq:
+    virtual-host: /test
+    host: 192.168.0.104
+    username: wozoucf
+    password: a4183129cf
   main:
     allow-bean-definition-overriding: true
   jpa:
