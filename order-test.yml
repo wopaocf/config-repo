@@ -19,3 +19,6 @@ server:
   port: 8082
 env:
   test
+girl:
+  name: tom
+  age: 12
