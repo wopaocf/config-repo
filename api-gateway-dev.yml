@@ -20,6 +20,7 @@ mybatis:
   configuration:
     map-underscore-to-camel-case: true
 zuul:
+   sensitive-headers:
    routes:
       # product: /myProduct/**
       product:
