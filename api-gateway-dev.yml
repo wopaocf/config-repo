@@ -19,5 +19,14 @@ mybatis:
   mapper-locations: classpath:/mapper/*.xml
   configuration:
     map-underscore-to-camel-case: true
+zuul:
+   routes:
+      # product: /myProduct/**
+      product:
+         path: /myProduct/**
+         serviceId: product
+         sensitiveHeaders:
+
+   #ignored-patterns: /**/product/list
 server:
   port: 8086
