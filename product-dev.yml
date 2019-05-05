@@ -12,7 +12,7 @@ spring:
     virtual-host: /
     host: 192.168.0.104
     username: wozoucf
-    password: a4183129cf
+    password: a4183129
 mybatis:
   mapper-locations: classpath:/mapper/*.xml
   configuration:
